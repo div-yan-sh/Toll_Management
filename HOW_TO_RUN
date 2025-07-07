@@ -1,0 +1,11 @@
+# 1️⃣ Install required libraries
+pip install mysql-connector-python tabulate matplotlib
+
+# 2️⃣ Start your MySQL server
+# Make sure MySQL is running and you have user 'root' with password '2007'
+
+# 3️⃣ Run the database setup (creates DB, tables, and sample data)
+python database.py
+
+# 4️⃣ Launch the main portal
+python front_end.py
